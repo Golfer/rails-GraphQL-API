@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production node esbuild.config.js",
+    "watch": "NODE_ENV=development node esbuild.config.js --watch",
+    "start": "node esbuild.config.js --watch"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "esbuild-rails": "^1.0.7",
+    "eslint-define-config": "^2.1.0",
+    "path": "^0.12.7",
+    "postcss": "^8.5.3",
+    "postcss-loader": "^8.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.85.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "esbuild-plugin-copy": "^2.1.1",
+    "esbuild-plugin-sass": "^1.0.1"
+  }
+}
