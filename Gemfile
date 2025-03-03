@@ -39,6 +39,17 @@ gem "thruster", require: false
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
+gem 'redis', '~> 5.0'
+gem "graphql", "~> 2.4"
+
+gem "graphiql-rails", "~> 1.10"
+gem "graphql-anycable", "~> 1.3"
+
+gem "sidekiq", "~> 7.3"
+gem "sidekiq-scheduler", "~> 5.0"
+
+gem "anycable", "~> 1.5"
+gem "anycable-rails", "~> 1.5"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem

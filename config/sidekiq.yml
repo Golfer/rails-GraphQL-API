@@ -1,0 +1,16 @@
+---
+:concurrency: 5
+:queues:
+  - high
+  - default
+  - low
+production:
+  :concurrency: 5
+:process_limits:
+  low: 3
+redis_url: <%= ENV.fetch("REDIS_URL", "redis://127.0.0.1:6379/0") %>
+:scheduler:
+  :schedule:
+    create_tasks_for_active_projects:
+      cron: '0/2 * * * *'
+      class: CreateTaskProjectJob

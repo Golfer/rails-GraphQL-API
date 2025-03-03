@@ -1,0 +1,14 @@
+# config/redis.yml
+
+default: &default
+  url: <%= ENV["REDIS_URL"] %>
+  db: 0
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default

@@ -9,6 +9,9 @@
       </configuration>
     </facet>
   </component>
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -31,5 +34,111 @@
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
     <I18N_FOLDERS number="1" string0="$MODULE_DIR$/config/locales" />
+  </component>
+  <component name="RailsGeneratorsCache">
+    <option name="generators">
+      <list>
+        <option value="active_record:application_record" />
+        <option value="active_record:multi_db" />
+        <option value="application_record" />
+        <option value="authentication" />
+        <option value="benchmark" />
+        <option value="channel" />
+        <option value="controller" />
+        <option value="erb:authentication" />
+        <option value="generator" />
+        <option value="graphql:enum" />
+        <option value="graphql:input" />
+        <option value="graphql:install" />
+        <option value="graphql:install:mutation_root" />
+        <option value="graphql:interface" />
+        <option value="graphql:loader" />
+        <option value="graphql:mutation" />
+        <option value="graphql:mutation_create" />
+        <option value="graphql:mutation_delete" />
+        <option value="graphql:mutation_update" />
+        <option value="graphql:object" />
+        <option value="graphql:relay" />
+        <option value="graphql:scalar" />
+        <option value="graphql:union" />
+        <option value="helper" />
+        <option value="integration_test" />
+        <option value="jbuilder" />
+        <option value="job" />
+        <option value="mailbox" />
+        <option value="mailer" />
+        <option value="migration" />
+        <option value="model" />
+        <option value="resource" />
+        <option value="scaffold" />
+        <option value="scaffold_controller" />
+        <option value="script" />
+        <option value="solid_cable:install" />
+        <option value="solid_cable:update" />
+        <option value="solid_cache:install" />
+        <option value="solid_queue:install" />
+        <option value="stimulus" />
+        <option value="system_test" />
+        <option value="task" />
+        <option value="test_unit:authentication" />
+        <option value="test_unit:channel" />
+        <option value="test_unit:generator" />
+        <option value="test_unit:install" />
+        <option value="test_unit:mailbox" />
+        <option value="test_unit:plugin" />
+      </list>
+    </option>
+    <option name="myGenerators">
+      <list>
+        <option value="active_record:application_record" />
+        <option value="active_record:multi_db" />
+        <option value="application_record" />
+        <option value="authentication" />
+        <option value="benchmark" />
+        <option value="channel" />
+        <option value="controller" />
+        <option value="erb:authentication" />
+        <option value="generator" />
+        <option value="graphql:enum" />
+        <option value="graphql:input" />
+        <option value="graphql:install" />
+        <option value="graphql:install:mutation_root" />
+        <option value="graphql:interface" />
+        <option value="graphql:loader" />
+        <option value="graphql:mutation" />
+        <option value="graphql:mutation_create" />
+        <option value="graphql:mutation_delete" />
+        <option value="graphql:mutation_update" />
+        <option value="graphql:object" />
+        <option value="graphql:relay" />
+        <option value="graphql:scalar" />
+        <option value="graphql:union" />
+        <option value="helper" />
+        <option value="integration_test" />
+        <option value="jbuilder" />
+        <option value="job" />
+        <option value="mailbox" />
+        <option value="mailer" />
+        <option value="migration" />
+        <option value="model" />
+        <option value="resource" />
+        <option value="scaffold" />
+        <option value="scaffold_controller" />
+        <option value="script" />
+        <option value="solid_cable:install" />
+        <option value="solid_cable:update" />
+        <option value="solid_cache:install" />
+        <option value="solid_queue:install" />
+        <option value="stimulus" />
+        <option value="system_test" />
+        <option value="task" />
+        <option value="test_unit:authentication" />
+        <option value="test_unit:channel" />
+        <option value="test_unit:generator" />
+        <option value="test_unit:install" />
+        <option value="test_unit:mailbox" />
+        <option value="test_unit:plugin" />
+      </list>
+    </option>
   </component>
 </module>

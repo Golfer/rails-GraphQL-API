@@ -4,17 +4,31 @@
   "scripts": {
     "build": "NODE_ENV=production node esbuild.config.js",
     "watch": "NODE_ENV=development node esbuild.config.js --watch",
+    "build:css": "sass ./app/assets/stylesheets/application.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules",
     "start": "node esbuild.config.js --watch"
   },
   "dependencies": {
+    "@apollo/client": "^3.13.1",
+    "@popperjs/core": "^2.11.8",
+    "apollo-client": "^2.6.10",
     "autoprefixer": "^10.4.20",
+    "axios": "^1.8.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "esbuild-rails": "^1.0.7",
     "eslint-define-config": "^2.1.0",
+    "graphql": "^16.10.0",
+    "graphql-ws": "^6.0.4",
+    "nodemon": "^3.1.9",
     "path": "^0.12.7",
     "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0",
     "postcss-loader": "^8.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-error-boundary": "^5.0.0",
+    "react-responsive-masonry": "^2.7.1",
+    "react-router-dom": "^7.2.0",
     "sass": "^1.85.1"
   },
   "devDependencies": {
