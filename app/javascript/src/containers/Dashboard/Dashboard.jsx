@@ -3,8 +3,8 @@ import Project from "../../components/Project/Project";
 const Dashboard = () => {
 
   return (
-    <div>
-      <h1>Welcome to Dashboard</h1>
+    <div className="container">
+      <h1>Dashboard</h1>
       <Project />
     </div>
   );

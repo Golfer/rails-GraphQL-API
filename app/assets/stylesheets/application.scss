@@ -11,11 +11,24 @@
 
 .active{
   color: #0d6efd;
-  font-size: large;
+  font-size: larger;
 }
 
 
 .inactive{
   color: #6c757d;
   font-size: large;
+  border: 1px solid #6c757d;
+}
+
+.tasks-wrapper{
+  margin: 1rem;
+}
+
+.projects-wrapper{
+  margin: 1rem;
+
+  .project-card{
+    border: 1px solid #0d6efd;
+  }
 }
