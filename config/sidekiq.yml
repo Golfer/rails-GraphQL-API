@@ -12,5 +12,5 @@ redis_url: <%= ENV.fetch("REDIS_URL", "redis://127.0.0.1:6379/0") %>
 :scheduler:
   :schedule:
     create_tasks_for_active_projects:
-      cron: '0/2 * * * *'
+      cron: '0/1 * * * *'
       class: CreateTaskProjectJob
