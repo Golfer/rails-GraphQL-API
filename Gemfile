@@ -48,7 +48,7 @@ gem "graphql-anycable", "~> 1.3"
 gem "sidekiq", "~> 7.3"
 gem "sidekiq-scheduler", "~> 5.0"
 
-gem "anycable", "~> 1.5"
+gem "anycable", "~> 1.6"
 gem "anycable-rails", "~> 1.5"
 
 group :development, :test do
