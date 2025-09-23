@@ -40,7 +40,7 @@ gem "thruster", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 gem 'redis', '~> 5.0'
-gem "graphql", "~> 2.4"
+gem "graphql", "~> 2.5"
 
 gem "graphiql-rails", "~> 1.10"
 gem "graphql-anycable", "~> 1.3"
